@@ -9,7 +9,7 @@ const HomeSearch = () => {
   return (
     <View>
       <View style={styles.inputField}>
-        <Text style={styles.inputText}>HomeSearch</Text>
+        <Text style={styles.inputText}>Where to?</Text>
         <View style={styles.timeContainer}>
           <AntDesign name="clockcircle" size={16} color="#535353" />
           <Text style={{color: '#535353'}}>Now</Text>
@@ -26,7 +26,7 @@ const HomeSearch = () => {
         <View style={[styles.iconContainer, {backgroundColor: '#218cff'}]}>
           <Entypo name="home" size={20} color="#fff" />
         </View>
-        <Text style={styles.destinationText}>Spin Nightclub</Text>
+        <Text style={styles.destinationText}>Home</Text>
       </View>
     </View>
   );

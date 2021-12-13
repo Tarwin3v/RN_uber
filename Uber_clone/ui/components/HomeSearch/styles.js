@@ -16,13 +16,13 @@ const styles = StyleSheet.create({
   },
   timeContainer: {
     flexDirection: 'row',
-    width: 100,
     justifyContent: 'space-between',
-    alignItems: 'center',
+    width: 100,
     padding: 10,
     backgroundColor: '#fff',
     borderRadius: 50
   },
+
   row: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
   },
   destinationText: {
     marginLeft: 10,
-    fontWeight: '600',
+    fontWeight: '500',
     fontSize: 16
   }
 });
